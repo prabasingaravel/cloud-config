@@ -22,7 +22,7 @@ spring:
 healthcare:
   module:
    vitalsign:
-     uri: http://localhost:8082/vitalSign
+     uri: http://localhost:8082/vitalsign
      name: vitalsign-modul-api
    patient:
      uri: http://localhost:8081/patients
