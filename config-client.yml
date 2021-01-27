@@ -30,3 +30,8 @@ healthcare:
    user:
     uri: http://localhost:8080/users
     name: user-module-api  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
