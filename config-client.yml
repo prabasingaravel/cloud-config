@@ -19,3 +19,14 @@ spring:
   redis:
     host: localhost
     port: 6379
+healthcare:
+  module:
+   vitalsign:
+     uri: http://localhost:8082/vitalSign
+     name: vitalsign-modul-api
+   patient:
+     uri: http://localhost:8081/patients
+     name: patient-module-api
+   user:
+    uri: http://localhost:8080/users
+    name: user-module-api  
