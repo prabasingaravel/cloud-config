@@ -22,13 +22,13 @@ spring:
 healthcare:
   module:
    vitalsign:
-     uri: http://localhost:8082/vitalsign
+     uri: http://localhost:8083/vitalsign
      name: vitalsign-modul-api
    patient:
-     uri: http://localhost:8081/patients
+     uri: http://localhost:8082/patients
      name: patient-module-api
    user:
-    uri: http://localhost:8080/users
+    uri: http://localhost:8081/users
     name: user-module-api  
 management:
   endpoints:
