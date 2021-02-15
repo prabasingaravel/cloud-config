@@ -30,7 +30,11 @@ healthcare:
    user:
     uri: http://localhost:8081/users
     name: user-module-api  
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 logging:
   file:
     path: C:\Users\Windows\Softwares\ELK\logs
